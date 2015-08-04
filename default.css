@@ -1,0 +1,553 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	padding: 0;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+h1, h2, h3 {
+	color:black;
+	background:none;
+
+}
+
+h1 {
+	background:none;
+	color:black;
+	font-size: 1.6em;
+}
+
+h2 {
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:8px;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: none;
+}
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+/*****The following CSS  allow a consistent margin when a list index has to start on a new line*****/
+ol {
+    margin:0px 0;
+    padding:0;
+    list-style: decimal inside none;
+}
+
+ol li {
+    margin: 0px;
+    padding: 0px;
+    text-indent: -1.25em;
+    margin-left: 1.15em;
+}
+
+/* End list margin settings */
+
+#header {
+	width: 930px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#login {
+	text-align: right;
+	display:block;
+	float:right;
+	padding: 10px;
+	margin-right:10px;
+	margin-top: 20px;
+	border: 2px #EEEEEE;
+	border-style:outset;
+	border-radius: 10px;
+}
+
+
+/* Header */
+
+#logo {
+	width: 940px;
+	height: 80px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#logo h1, #logo p {
+	float: left;
+	margin: 0;
+}
+
+#logo span {
+}
+
+#logo h1 {
+	padding: 25px 0 0 0;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-size: 3em;
+}
+
+#logo p {
+	text-transform: uppercase;
+	padding: 47px 0 0 3px;
+	font-size: 10px;
+	color: #CCCCCC;
+}
+
+#logo a {
+	border: none;
+	text-decoration: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 920px;
+	height: 25px;
+	margin: 0 auto;
+	margin-top:20px;
+	margin-bottom: 20px;
+	text-align: center;	
+	padding: 17px 0 10px 0;
+	color:black;
+	display:block;
+	background-color: #E9E9E9;
+}
+
+#menu a{ 
+	//display:block;
+	//float:left;
+	/*removes default underlining of links*/
+	text-decoration: none; 
+	/* changes the default padding size from the 'block' to save space and give a nicer look*/
+	padding: 10px 15px 15px 15px;	
+	//background: url(images/img14.gif) no-repeat right 7px;
+	font-size: 13px;
+}
+
+/*this changes the properties of the 'buttons' so that the user is aware that they have an interactive functionality*/
+#menu a:hover {
+    text-decoration: underline;	
+}
+
+#menu .current_page_item a {
+	color: #04283B;
+}
+
+/* Wrapper */
+
+#wrapper {
+	margin: 0 auto;
+	width: 920px;
+}
+
+/* Page */
+
+#page {
+	width: 920px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#page-bg {
+}
+
+/* Latest Post */
+
+#latest-post {
+	//padding: 20px;
+	border: 1px solid #E7E7E7;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 670px;
+	height: 1200px;
+	border:solid 1px #aacfe4;
+	padding:15px;
+	//background: url(images/img12.gif) repeat-y left top;
+}
+
+#content-bgtop {
+	//background: url(images/img11.gif) no-repeat left top;
+}
+
+#content-bgbtm {
+	padding: 0px 0px;
+	//background: url(images/img13.gif) no-repeat left bottom;
+}
+
+.post {
+
+	//background: url(images/img15.gif) repeat-x left bottom;
+	line-height: 200%;
+	border-bottom:solid 1px black;
+}
+
+.post h1 {
+	font-weight: normal;
+	border:none;
+}
+
+.title {
+	padding: 10px 0 4px 0;
+	font-weight: normal;
+	margin-bottom:10px;
+	border-bottom:solid 1px #000000;
+	padding-bottom:5px;
+	
+}
+
+.title a {
+	border-bottom: 5px;
+}
+
+.title a:hover {
+	border-bottom: 1px dotted #000000;
+}
+
+.byline {
+	font-size: 11px;
+	text-align:right;
+	margin: 0px;
+	color:gray;
+}
+
+.tag {
+	padding: 0 15px;
+}
+
+.entry {
+	padding: 0 0px 0 10px;
+}
+
+.links {
+	padding: 4px 0px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.links a {
+	border: none;
+}
+
+.links a:hover {
+}
+
+/* Sidebars */
+#sidebar1 {
+	float: left;
+	width: 160px;
+	height: 1200px;
+	background-color: #23607d;
+	color: #23607d;
+	//border-radius: 3px;
+}
+
+#sidebar1 h2 {
+	
+	margin: 5px 0 10px 0;
+	padding: 0;
+	font-size: 1.2em;
+	color: white;
+}
+
+#sidebar1 a {
+	margin: 0 0 0 15px;
+	color: white;
+	font-size: 0.9em;
+	
+}
+
+#sidebar1 a:hover{
+	font-weight:bold;
+}
+
+#sidebar1 li {
+	text-align:left;
+	display:block;
+	
+}
+
+#sidebar1 li :hover{
+	color:white;
+}
+
+#sidebar1 ul {
+	list-style: inside none;
+	line-height: 10px;
+	border-bottom: 1px ridge #005278;
+}
+
+#sidebar1 ol {
+	margin-top: 20px;
+	padding: 10px;
+	list-style: inside none;
+	line-height: 10px;
+	border-bottom: 1px ridge #005278;
+}
+
+.submenu a{
+	font-weight:normal;
+	border-bottom: 1px dotted grey;
+}
+.submenu a:hover{
+	font-weight:normal;
+	border-bottom: 0px;
+}
+
+.sidebar {
+	float: left;
+	width: 190px;
+	font-size: 12px;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li {
+	padding: 0 0 20px 0;
+}
+
+.sidebar li ul {
+}
+
+.sidebar li li {
+	margin: 0 10px 0 10px;
+	padding: 8px 0px;
+	//border-bottom: 1px #BBBBBB dashed;
+}
+
+
+.sidebar li h2 {
+	height: 30px;
+	margin: 0 0 0 0;
+	padding: 10px 15px 0px 15px;
+}
+
+.sidebar a :hover{
+	text-decoration: underline;
+	font-weight:bold;
+	color:white;
+	
+}
+
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.myform{
+	width:450px;
+	padding:14px;
+}
+
+/* ----------- stylized form ----------- */
+#stylized h1 {
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:8px;
+	margin-top: 0;
+}
+#stylized p{
+	font-size:11px;
+	color:#666666;
+	margin-bottom:20px;
+	border-bottom:solid 1px #aacfe4;
+	padding-bottom:10px;
+}
+#stylized label{
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:140px;
+	float:left;
+}
+#stylized .small{
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:140px;
+}
+#stylized input, select, textarea{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #aacfe4;
+	width:200px;
+	margin:2px 0 20px 10px;
+}
+
+#stylized button{
+	clear:both;
+	margin-left:232px;
+	width:125px;
+	height:31px;
+	background:#666666 url(img/button.png) no-repeat;
+	text-align:center;
+	line-height:31px;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;	
+}
+
+fieldset {
+	border-top: 1px solid #aacfe4;
+	border-right: 0;
+	border-left: 0;
+	border-bottom:0;
+}
+
+legend {
+	margin: 1.1em 0;
+	padding: 0 .5em;
+	color: gray;
+	background: transparent;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+/* -- table styles -- */
+table.altrowstable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+	margin:15px;
+	
+}
+table.altrowstable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+
+table.altrowstable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+
+.evenrowcolor{
+	background-color:#c3dde0;
+}
+
+/* table on the contacts page */
+#contacts1{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#contacts1 td {
+	width: 300px;
+}
+
+/* Search */
+#searchform {
+	margin: 0;
+	padding: 0 0 0 0;
+}
+
+#searchform br {
+	display: none;
+}
+
+#searchform h2 {
+}
+
+
+
+#s {
+	margin: 10px 0px 0 15px;
+	padding: 2px 2px;
+	width: 125px;
+	height: 18px;
+	border: 1px solid black;
+	font-size: 10px;
+}
+
+#x {
+	margin: 0;
+	padding: 2px 5px;
+	height: 25px;
+	background: #CA8186;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+#map {
+	margin: 16px 0 0 0;
+}
+
+/* Footer */
+
+#footer {
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 25px 20px 0 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: smaller;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer a {
+}
+
+#footer .link {
+	float: right;
+}
+
+#footer .copyright {
+	float: left;
+}
